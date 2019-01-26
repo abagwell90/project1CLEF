@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Clef Project 1</title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+	 crossorigin="anonymous">
+	
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+	
+	<link rel="stylesheet" href="./assets/css/reset.css">
+	
+	<!-- Hover Reference -->
+	<link href="assets/css/hover.css" rel="stylesheet">
+
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+	
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+	crossorigin="anonymous">
+	
+	<link href="./assets/css/style.css" rel="stylesheet" type="text/css" />
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gl-matrix/2.1.0/gl-matrix.js"></script>
+	
+	<!-- Firebase Reference -->
+	<script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+
+</head>
+
+
+<body>
+	<canvas id="canvas"></canvas>
+
+	<div class="container-fluid" align="center">
+		<div class="row">
+			<div class="col-md-12" id="topheading" align="center"><br><br>
+				<br> <img src="assets/images/clef.png"
+				style="width: 400px; max-width: 100%; height: auto"
+				title="Click for the larger version." /> <br>
+			</div><br>
+		</div><br>
+		<div class="row">
+			<div class="col-md-12" align="center">
+				<div id="myButtons"></div>
+			</div>
+		</div><br>
+		<div class="row">
+			<div class="col-md-12" align="center">
+				<form id="space-form">
+					<label id="whitetext" for="space-input">Add Another Artist</label>
+					<input type="text" id="space-input"><br>
+					<input id="spaceTheme" type="submit" value="Add Your Artist">
+				</form>
+			</div>
+		</div>
+
+		<div class="row" id="content-holder">
+			<div class="col-md-6" id="backgroundcolor1" align="center" style=" padding: 0; margin: 0">
+				<div id="space-value" class="text-center"></div>
+			</div>
+			<div class="col-md-6" id="backgroundcolor1" align="center" style=" padding: 0; margin: 0">
+				<div id="tracksTitle" class="text-center" >
+					<h3>
+						<span id="artistName"> </span> Notable Tracks:
+					</h3>
+				</div>
+				<div id="lyrics" class="text-center"></div>
+			</div>
+		</div>
+	</div>
+
+	<!-- "background-color: rgba(0,191,255,0.5)"" -->
+
+	<section id="footer" align="center" style="z-index: 1000">
+
+    	<img src="assets/images/clef-img.png"
+    	style="width: 300px; max-width: 100%; height: auto"
+    	title="Click for the larger version." />
+
+		<h1> Andrew Bagwell - Sam Hanson - Troy Wynn  </h1>
+
+	</section>
+
+	<script src="./assets/javascript/app.js"></script>
+
+</body>
+
+</html>

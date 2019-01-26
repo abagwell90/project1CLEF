@@ -1,0 +1,140 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #1F2833;
+ 
+}
+
+canvas {
+  background-image: url(../images/crowd.jpg);
+  position: absolute;
+  width: 100%;
+  max-height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+
+button,
+div,
+form,
+input {
+  margin: 10px;
+  font-family: 'Oswald', sans-serif;
+    }
+
+.spaceGif {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h3 {
+  text-align: center;
+  color:white;  
+  margin: 30px;
+  padding: 10px;
+  padding-top: 25px;
+  font-size: 60px;
+  font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color:white;  
+  font-family: 'Oswald', sans-serif;
+}
+
+.topheading {
+  padding: 10px;
+  padding-top: 25px;
+  font-family: 'Oswald', sans-serif;
+}
+
+#footer {
+  background-color: #45A29E;
+  color: white;
+  padding: 15px;
+  font-size: 15px;
+}
+
+#whitetext {
+  color:white;
+  font-size: 25px;
+  font-family: 'Oswald', sans-serif; 
+}
+
+img {
+  padding: 30px;
+}
+
+.fas {
+  color: white;
+  size: 10px;
+  font-size: 3em;
+}
+
+.spaceGif{
+  padding: 10px;
+  text-align: center;
+}
+
+p {
+  color: white;
+  font-size: 25px;
+}
+#spaceButtons {
+  font-family: 'Oswald', sans-serif; 
+}
+
+.spaceClass {
+
+  font-size: 2em;
+
+}
+
+.spaceClass:hover, .spaceClass:focus, .spaceClass:active, .spaceClass.active {
+  color: #fff;
+  background-color: #C5C6C7;
+  border-color: #66FCF1; 
+}
+
+#artistName {
+  /* font-style: italic; */
+  
+}
+
+
+#content-holder {
+  /* background-color: rgba(0,191,255,0.5); */
+  /* position: static; */
+  color: black;
+  max-height: 100%;
+
+}
+
+
+
+#space-value{
+
+  /* max-height: 1000px; */
+ 
+  /* overflow-y: scroll; */
+  /* overflow-y: auto; */
+  overflow: hidden;
+
+}
+
+#backgroundcolor1 {
+  background-color: rgb(0, 191, 255, 0.6);
+  overflow: hidden;
+  max-height: 900px;
+  /* color: black; */
+
+}
+
+
+

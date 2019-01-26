@@ -9,3 +9,6 @@ VISUAL MUSIC DISPLAY APP CALLED CLEF
 Allows users to add artists to search, displaying the artists top tracks and related gifs that animate. Gifs scroll automatically on display.
 
 Incorporates skillets in HTML, CSS, JavaScript, Bootstrap, Moment.js and Firebase, Captures data from Giphy and MusicxMatch APIs. 
+
+Thank you for taking a look.
+
